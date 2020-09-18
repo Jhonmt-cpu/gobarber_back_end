@@ -1,6 +1,6 @@
 import { inject, injectable } from 'tsyringe';
 
-import AppError from '@shared/errors/appError';
+import AppError from '@shared/errors/AppError';
 
 import IStorageProvider from '@shared/container/providers/StorageProvider/models/IStorageProvider';
 import IUsersRepository from '../repositories/IUsersRepository';
