@@ -78,7 +78,7 @@ describe('UpdateProfile', () => {
     const updatedUser = await updateProfile.execute({
       user_id: user.id,
       name: 'Jhon Trê',
-      email: 'jhontre@example.com',
+      email: 'johntre@example.com',
       old_password: '123456',
       password: '123123',
     });
